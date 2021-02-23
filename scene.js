@@ -146,7 +146,7 @@ function init(){
 		skytextureb = new THREE.MeshLambertMaterial({map : texture});
   	sky = new THREE.Mesh(skybox, skytextureb);
     sky.position.z=-plane.position.z-(plane.geometry.parameters.height/2);
-    sky.position.y=32500	;
+    sky.position.y=25000	;
   	scene.add(sky);
 
 		loader = new THREE.TextureLoader();
